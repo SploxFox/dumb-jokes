@@ -34,7 +34,8 @@ const jokes = [
 
 function nextJoke() {
 	//Get the current jokes viewed
-	var wordsUsed = document.cookie.substring(document.cookie.indexOf("jokesViewed")).substring(document.cookie.indexOf(";")).split(",").shift();
+	var wordsUsed = document.cookie.substring(document.cookie.indexOf("jokesViewed")).substring(document.cookie.indexOf(";")).split(",");
+	wordsUsed.shift();
 	//Should return something like ["1","2","3"]
 	
 	var random = Math.floor(Math.random() * jokes.length)
