@@ -48,7 +48,7 @@ function nextJoke() {
 
 function hasSeenAll(wordsUsed){
 	for (var i = 0; i < jokes.length; i++){
-		if (!wordsUsed.includes(i)){
+		if (!wordsUsed.includes("" + i)){
 			return false;
 		}
 	}
