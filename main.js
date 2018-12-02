@@ -22,7 +22,7 @@ const jokes = [
 	"What do you call a magic dog? A labracadabrador.",
 	"Steak jokes are a rare medium well done.",
 	"Why do scuba divers jump backwards out of the boat?\r\nBecause if they jumped forwards, they'd still be in the boat.",
-	'What do we want?\r\n"Airplane noises!"\r\nWhen do we want them?"Nyeow!"',
+	'What do we want?\r\n"Airplane noises!"\r\nWhen do we want them?\r\n"Nyeow!"',
 	"My fake plant did because I forgot to pretend to water it.",
 	"Two men walked into a bar and the third guy ducked.",
 	"Two cows are standing in a field. The first cow says to the second, \"Have you heard about this mad cow disease? It makes cows ago crazy and then they die.\" The second cow replies, \"Good thing I'm a helicopter.\"",
