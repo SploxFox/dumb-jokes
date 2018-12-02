@@ -39,7 +39,7 @@ function nextJoke() {
 	//Should return something like ["1","2","3"]
 	
 	var random = Math.floor(Math.random() * jokes.length)
-	if (!wordsUsed.includes(random) || hasSeenAll(wordsUsed)){
+	if (!wordsUsed.includes("" + random) || hasSeenAll(wordsUsed)){
 		document.getElementById("joke").textContent = jokes[random];
 		document.cookie = "jokesViewed=," + wordsUsed.toString() + "," + random;
 	} else {
