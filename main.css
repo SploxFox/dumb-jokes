@@ -1,0 +1,7 @@
+#joke {
+	white-space: pre-line;
+	display: inline-block;
+}
+body {
+	margin: 30vh 30vw 0vh 30vw;
+}
