@@ -41,7 +41,7 @@ function nextJoke() {
 	var random = Math.floor(Math.random() * jokes.length)
 	if (!wordsUsed.includes(random) || hasSeenAll(wordsUsed)){
 		document.getElementById("joke").textContent = jokes[random];
-		document.cookie = "jokesViewed=" + wordsUsed.toString() + "," + random;
+		document.cookie = "jokesViewed=," + wordsUsed.toString() + "," + random;
 	} else {
 		nextJoke();
 	}
