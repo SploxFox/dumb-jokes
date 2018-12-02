@@ -14,7 +14,7 @@ const jokes = [
 	"A Spanish magician told his audience that he was going to vanish on the count of three. He counted, \"Uno, dos...\" and he disappeared without a tres.",
 	"What do you call a pair of Mexican firefighters?\r\nJose and Hose B.",
 	"A plateau is the highest form of flattery.",
-	"What did one nut say to the other nut?\r\n\"I'm a cashew.",
+	"What did one nut say to the other nut?\r\n\"I'm a cashew.\"",
 	"I saw a nice stereo being sold for $1. The seller said that volume was stuck on 'high.'\r\nI couldn't turn it down.",
 	"Two fish are in a tank. One looks at the other and says, \"You man the gun; I'll drive.\"",
 	"Two soldiers are in a tank. One looks at the other says, \"BLUBLUBLUBLUBLUBLUBLUBLUBLUBLUB.\"",
@@ -34,7 +34,7 @@ const jokes = [
 
 function nextJoke() {
 	//Get the current jokes viewed
-	var wordsUsed = document.cookie.substring(document.cookie.indexOf("jokesViewed")).substring(document.cookie.indexOf(";")).split(",");
+	var wordsUsed = document.cookie.substring(document.cookie.indexOf("jokesViewed")).substring(document.cookie.indexOf(";")).split(",").shift();
 	//Should return something like ["1","2","3"]
 	
 	var random = Math.floor(Math.random() * jokes.length)
